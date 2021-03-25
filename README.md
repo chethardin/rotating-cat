@@ -1,4 +1,4 @@
-# rotating-cat
+# Rotating Cat
 
 - Cat
 - Rotating
