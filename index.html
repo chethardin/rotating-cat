@@ -1,0 +1,17 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <title>chethardin.com</title>
+  <meta name="description" content="This is a website.">
+  <style>
+    body{display:flex;align-items:center;justify-content:center;height:100vh;margin:0;overflow:hidden;}.kitty{height:1px;animation-name:spin;animation-duration:300s;animation-iteration-count:infinite;animation-timing-function:linear;display:block;}.kitty__img{height:100%;}@keyframes spin{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+  </style>
+</head>
+<body>
+  <div class="kitty js-kitty"><img class="kitty__img" src="img/giphy.gif" /></div>
+</body>
+<script>
+  let c=1;setInterval(function(){w()},80);function w(){c+=1;document.querySelector(".js-kitty").style.height=c+'px';}
+</script>
+</html>
