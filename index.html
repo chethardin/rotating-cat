@@ -12,27 +12,30 @@
         }
 
         body {
-            display: flex;
+            /* display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: center; */
             height: 100%;
             width: 100%;
             position: fixed;
             margin: 0;
             overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .kitty {
-            height: 1px;
-            animation-name: spin;
-            animation-duration: 300s;
-            animation-iteration-count: infinite;
-            animation-timing-function: linear;
-            display: block;
+            height: 389px;
         }
 
         .kitty__img {
             height: 100%;
+            display: block;
+            animation-name: spin;
+            animation-duration: 300s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
         }
 
         @keyframes spin {
@@ -51,7 +54,9 @@
     <div class="kitty js-kitty"><img class="kitty__img" src="assets/giphy.gif" /></div>
 </body>
 <script>
-    let c = 1; setInterval(function () { w() }, 80); function w() { c += 1; document.querySelector(".js-kitty").style.height = c + 'px'; }
+    let c = 0;
+    setInterval(function () { w() }, 30);
+    function w() { c += 0.001; document.querySelector(".js-kitty").style.transform = 'scale(' + c + ')' }
 </script>
 
 </html>
