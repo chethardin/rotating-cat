@@ -1,38 +1,42 @@
-        html {
-            width: 100%;
-            height: 100%
-        }
+@font-face {
+	font-family: "Radwave";
+	src: url('fonts/radwave-regular.woff2') format('woff2'),
+	     url('fonts/radwave-regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
 
-        body {
-            height: 100%;
-            width: 100%;
-            position: fixed;
-            margin: 0;
-            overflow: hidden;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1240px;
+$huge: 1650px;
 
-        .kitty {
-            height: 389px;
-        }
+:root {
+	--color-purple: #7700FF;
+	--color-red: #E12122;
+	--color-font: #000000;
+}
 
-        .kitty__img {
-            height: 100%;
-            display: block;
-            animation-name: spin;
-            animation-duration: 300s;
-            animation-iteration-count: infinite;
-            animation-timing-function: linear;
-        }
+:root {
+    --app-height: 100vh;
+	--content-wrap: 1614px;
+}
 
-        @keyframes spin {
-            from {
-                transform: rotate(0)
-            }
+:root {
+    --font-heading: "Radwave", sans-serif;
+	--font-body: "Arial", sans-serif;
+}
 
-            to {
-                transform: rotate(360deg)
-            }
-        }
+body {
+    scroll-behavior: smooth
+}
+
+@import 'typography';
+@import 'layout';
+@import 'header';
+@import 'hero';
+@import 'sections';
+@import 'footer';
+@import 'animation';
+@import 'modal';
