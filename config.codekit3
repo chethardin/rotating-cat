@@ -31,12 +31,12 @@
       "oAP" : "\/app\/_includes\/layouts\/base.njk",
       "oF" : 0
     },
-    "\/app\/_pages\/home" : {
+    "\/app\/_pages\/home.njk" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/app\/_pages\/home",
+      "oAP" : "\/app\/_pages\/home.njk",
       "oF" : 0
     },
     "\/app\/_site\/admin\/config.yml" : {
