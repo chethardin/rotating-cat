@@ -9,6 +9,24 @@
   ],
   "creatorBuild" : "34127",
   "files" : {
+    "\/_pages\/home.njk" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_pages\/home.njk",
+      "oF" : 0
+    },
+    "\/_site\/images\/uploads\/giphy.gif" : {
+      "ft" : 4194304,
+      "iS" : 247225,
+      "oA" : 0,
+      "oAP" : "\/_site\/images\/uploads\/giphy.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
     "\/.gitignore" : {
       "cB" : 0,
       "ft" : 8192,

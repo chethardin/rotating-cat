@@ -3,3 +3,8 @@ layout: layouts/base.njk
 permalink: /
 ---
 <div class="kitty js-kitty"><img class="kitty__img" src="images/giphy.gif" /></div>
+
+{% set home = collections.page.home %}
+
+{{ home.title }}
+{{ home.hero }}
