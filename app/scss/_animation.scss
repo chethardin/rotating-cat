@@ -1,0 +1,47 @@
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.js-animated {
+	animation-duration: 1.2s;
+	animation-delay: 200ms;
+	animation-fill-mode: both;
+	-webkit-animation-duration: 1.2s;
+	-webkit-animation-delay: 200ms;
+	-webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+	opacity: 0
+}
+
+.fadeInUp {
+	opacity: 0;
+	animation-name: fadeInUp;
+	-webkit-animation-name: fadeInUp;
+}
+
+@media screen and (-ms-high-contrast: none) {
+	.animatedFadeInUp,
+	.fadeInUp  {
+		opacity: 1
+	}
+}

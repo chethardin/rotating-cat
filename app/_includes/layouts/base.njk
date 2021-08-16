@@ -1,6 +1,8 @@
 ---
-title: chethardin.com
-description: This is a website.
+title: AtomicMind
+description: A collective of experts with years of experience helping students from around the globe get into their top choice colleges.
+gtag: G-RDEEMJTMV1
+icon: images/icon.png
 ---
 
 <!doctype html>
@@ -10,6 +12,15 @@ description: This is a website.
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>{{ title }}</title>
 		<meta name="description" content="{{ description }}">
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id={{ gtag }}"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', '{{ gtag }}');
+		</script>
 		<meta property="og:locale" content="en_US" />
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="{{ title }}">
@@ -17,7 +28,15 @@ description: This is a website.
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="twitter:title" content="{{ title }}" />
 		<meta name="twitter:description" content="{{ description }}" />
-		<meta name="theme-color" content="#ffffff">
+		<link rel="apple-touch-icon" href="{{ icon }}">
+		<link rel="shortcut icon" type="image/jpg" href="{{ icon }}"/>
+		<link rel="preload" href="css/fonts/radwave-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<meta name="theme-color" content="#fafafa">
+		<style>.modal{visibility:hidden;opacity:0}</style>
+		<style>
+			@font-face {font-family: "Radwave";src: url('css/fonts/radwave-regular.woff2') format('woff2'),url('css/fonts/radwave-regular.woff') format('woff');font-weight: 400;ont-style: normal;font-display: swap;unicode-range:U+000-5FF}
+		</style>
+		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/main.css">
 		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 		<script>
@@ -34,6 +53,19 @@ description: This is a website.
 	</head>
 	<body>
 		{{ content | safe }}
+		<footer class="footer">
+			<div class="footer__inner content-wrap">
+				<p class="p">© 2021 AtomicMind, All Rights Reserved.</p>
+				{# <ul class="footer__nav">
+					<li><a href="#">Terms of Use</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+				</ul> #}
+			</div>
+		</footer>
+		{% include "layouts/modal.njk" %}
+		<script src="{{ "/js/seamless.js" | url }}"></script>
 		<script src="{{ "/js/scripts.min.js" | url }}"></script>
+		<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+		<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 	</body>
 </html>

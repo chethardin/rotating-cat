@@ -31,12 +31,38 @@
       "oAP" : "\/app\/_data\/sections.yaml",
       "oF" : 0
     },
+    "\/app\/_includes\/icons\/arrow.njk" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/app\/_includes\/icons\/arrow.njk",
+      "oF" : 0
+    },
+    "\/app\/_includes\/icons\/down-caret.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/app\/_includes\/icons\/down-caret.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/app\/_includes\/layouts\/base.njk" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/app\/_includes\/layouts\/base.njk",
+      "oF" : 0
+    },
+    "\/app\/_includes\/layouts\/modal.njk" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/app\/_includes\/layouts\/modal.njk",
       "oF" : 0
     },
     "\/app\/_site\/_pages\/home\/index.html" : {
@@ -47,12 +73,28 @@
       "oAP" : "\/app\/_site\/_pages\/home\/index.html",
       "oF" : 0
     },
+    "\/app\/_site\/admin\/config.yml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/app\/_site\/admin\/config.yml",
+      "oF" : 0
+    },
     "\/app\/_site\/admin\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/app\/_site\/admin\/index.html",
+      "oF" : 0
+    },
+    "\/app\/_site\/admin\/index.njk" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/app\/_site\/admin\/index.njk",
       "oF" : 0
     },
     "\/app\/_site\/css\/fonts\/radwave-outline.eot" : {
@@ -101,6 +143,26 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/app\/_site\/css\/fonts\/radwave-regular.woff2",
+      "oF" : 0
+    },
+    "\/app\/_site\/css\/main.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/app\/_site\/css\/main-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/app\/_site\/css\/main.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/app\/_site\/css\/main.css.map",
       "oF" : 0
     },
     "\/app\/_site\/css\/normalize.css" : {
@@ -219,6 +281,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/app\/_site\/images\/giphy.gif" : {
+      "ft" : 4194304,
+      "iS" : 247225,
+      "oA" : 0,
+      "oAP" : "\/app\/_site\/images\/giphy.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
     "\/app\/_site\/images\/high-school-seniors.jpg" : {
       "ft" : 16384,
       "iS" : 48202,
@@ -314,6 +386,28 @@
       "oA" : 0,
       "oAP" : "\/app\/_site\/index.html",
       "oF" : 0
+    },
+    "\/app\/_site\/js\/scripts.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/app\/_site\/js\/scripts-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/app\/_site\/js\/scripts.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/app\/_site\/js\/scripts.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/app\/_site\/js\/seamless.js" : {
       "bF" : 0,
@@ -446,6 +540,20 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/app\/_site\/scss\/main.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/app\/_site\/scss\/main.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/app\/.eleventy.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -493,14 +601,129 @@
       "oAP" : "\/app\/css\/main.css.map",
       "oF" : 0
     },
-    "\/app\/images\/giphy.gif" : {
-      "ft" : 4194304,
-      "iS" : 247225,
+    "\/app\/images\/atomic-mind-white.png" : {
+      "ft" : 32768,
+      "iS" : 8021,
       "oA" : 0,
-      "oAP" : "\/app\/images\/giphy.gif",
+      "oAP" : "\/app\/images\/atomic-mind-white.png",
       "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/app\/images\/coffeeshop.jpg" : {
+      "ft" : 16384,
+      "iS" : 73830,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/app\/images\/coffeeshop.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/app\/images\/favicon-atomic-mind.png" : {
+      "ft" : 32768,
+      "iS" : 3381,
+      "oA" : 0,
+      "oAP" : "\/app\/images\/favicon-atomic-mind.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/app\/images\/favicon.ico" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/app\/images\/favicon.ico",
+      "oF" : 0
+    },
+    "\/app\/images\/feet-with-arrows.jpg" : {
+      "ft" : 16384,
+      "iS" : 144186,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/app\/images\/feet-with-arrows.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/app\/images\/high-school-seniors.jpg" : {
+      "ft" : 16384,
+      "iS" : 48202,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/app\/images\/high-school-seniors.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/app\/images\/kicking-girl.jpg" : {
+      "ft" : 16384,
+      "iS" : 103822,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/app\/images\/kicking-girl.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/app\/images\/rect.png" : {
+      "ft" : 32768,
+      "iS" : 90533,
+      "oA" : 0,
+      "oAP" : "\/app\/images\/rect.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/app\/images\/student-3am-study.jpg" : {
+      "ft" : 16384,
+      "iS" : 47881,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/app\/images\/student-3am-study.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/app\/images\/student-drummer.jpg" : {
+      "ft" : 16384,
+      "iS" : 55327,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/app\/images\/student-drummer.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
       "rq" : 75
     },
     "\/app\/index.njk" : {
@@ -562,6 +785,118 @@
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
+    },
+    "\/app\/scss\/_animation.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/app\/scss\/_animation.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/app\/scss\/_footer.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/app\/scss\/_footer.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/app\/scss\/_header.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/app\/scss\/_header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/app\/scss\/_hero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/app\/scss\/_hero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/app\/scss\/_layout.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/app\/scss\/_layout.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/app\/scss\/_modal.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/app\/scss\/_modal.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/app\/scss\/_sections.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/app\/scss\/_sections.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/app\/scss\/_typography.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/app\/scss\/_typography.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/app\/scss\/main.scss" : {
       "aP" : 1,
