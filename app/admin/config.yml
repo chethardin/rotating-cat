@@ -12,7 +12,7 @@ collections:
     files:
       - label: "Sections"
         name: "sections"
-        file: "_data/sections.yml"
+        file: "app/_data/sections.yml"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Hero", name: "hero", widget: "markdown"}
