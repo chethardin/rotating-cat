@@ -47,28 +47,12 @@
       "oAP" : "\/app\/_site\/_pages\/home\/index.html",
       "oF" : 0
     },
-    "\/app\/_site\/admin\/config.yml" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/app\/_site\/admin\/config.yml",
-      "oF" : 0
-    },
     "\/app\/_site\/admin\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/app\/_site\/admin\/index.html",
-      "oF" : 0
-    },
-    "\/app\/_site\/admin\/index.njk" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/app\/_site\/admin\/index.njk",
       "oF" : 0
     },
     "\/app\/_site\/css\/fonts\/radwave-outline.eot" : {
@@ -117,26 +101,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/app\/_site\/css\/fonts\/radwave-regular.woff2",
-      "oF" : 0
-    },
-    "\/app\/_site\/css\/main.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/app\/_site\/css\/main-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/app\/_site\/css\/main.css.map" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/app\/_site\/css\/main.css.map",
       "oF" : 0
     },
     "\/app\/_site\/css\/normalize.css" : {
@@ -255,16 +219,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/app\/_site\/images\/giphy.gif" : {
-      "ft" : 4194304,
-      "iS" : 247225,
-      "oA" : 0,
-      "oAP" : "\/app\/_site\/images\/giphy.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
     "\/app\/_site\/images\/high-school-seniors.jpg" : {
       "ft" : 16384,
       "iS" : 48202,
@@ -360,28 +314,6 @@
       "oA" : 0,
       "oAP" : "\/app\/_site\/index.html",
       "oF" : 0
-    },
-    "\/app\/_site\/js\/scripts.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/app\/_site\/js\/scripts-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/app\/_site\/js\/scripts.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/app\/_site\/js\/scripts.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
     },
     "\/app\/_site\/js\/seamless.js" : {
       "bF" : 0,
@@ -509,20 +441,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/app\/_site\/scss\/_typography.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/app\/_site\/scss\/main.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/app\/_site\/scss\/main.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
