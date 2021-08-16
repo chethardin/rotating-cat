@@ -41,20 +41,20 @@
       "oAP" : "\/.idea",
       "oF" : 0
     },
+    "\/app\/_data\/home.yml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/app\/_data\/home.yml",
+      "oF" : 0
+    },
     "\/app\/_includes\/layouts\/base.njk" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/app\/_includes\/layouts\/base.njk",
-      "oF" : 0
-    },
-    "\/app\/_pages\/home.njk" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/app\/_pages\/home.njk",
       "oF" : 0
     },
     "\/app\/_site\/_pages\/home\/index.html" : {
