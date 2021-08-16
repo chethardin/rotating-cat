@@ -1,0 +1,41 @@
+.site-logo {
+    min-height: 15px;
+}
+
+.site-logo__img {
+    display: block;
+    width: 200px
+}
+
+@media only screen and (min-width: $tablet) {
+
+    .site-logo {
+        min-height: 21px;
+    }
+
+    .site-logo__img {
+        width: 275px
+    }
+}
+
+@media only screen and (min-width: $desktop) {
+
+    .site-logo {
+        min-height: 27px;
+    }
+
+    .site-logo__img {
+        width: 350px
+    }
+}
+
+@media only screen and (min-width: $huge) {
+
+    .site-logo {
+        min-height: 50px;
+    }
+
+    .site-logo__img {
+        width: 629px
+    }
+}

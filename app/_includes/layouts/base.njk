@@ -1,0 +1,39 @@
+---
+title: chethardin.com
+description: This is a website.
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{{ title }}</title>
+		<meta name="description" content="{{ description }}">
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="{{ title }}">
+		<meta property="og:description" content="{{ description }}">
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="{{ title }}" />
+		<meta name="twitter:description" content="{{ description }}" />
+		<meta name="theme-color" content="#ffffff">
+		<link rel="stylesheet" href="css/main.css">
+		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+		<script>
+			if (window.netlifyIdentity) {
+			window.netlifyIdentity.on("init", user => {
+				if (!user) {
+				window.netlifyIdentity.on("login", () => {
+					document.location.href = "/admin/";
+				});
+				}
+			});
+			}
+		</script>
+	</head>
+	<body>
+		{{ content | safe }}
+		<script src="{{ "/js/scripts.min.js" | url }}"></script>
+	</body>
+</html>

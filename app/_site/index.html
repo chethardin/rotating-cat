@@ -1,0 +1,35 @@
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>chethardin.com</title>
+		<meta name="description" content="This is a website.">
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="chethardin.com">
+		<meta property="og:description" content="This is a website.">
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="chethardin.com" />
+		<meta name="twitter:description" content="This is a website." />
+		<meta name="theme-color" content="#ffffff">
+		<link rel="stylesheet" href="css/main.css">
+		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+		<script>
+			if (window.netlifyIdentity) {
+			window.netlifyIdentity.on("init", user => {
+				if (!user) {
+				window.netlifyIdentity.on("login", () => {
+					document.location.href = "/admin/";
+				});
+				}
+			});
+			}
+		</script>
+	</head>
+	<body>
+		<div class="kitty js-kitty"><img class="kitty__img" src="images/giphy.gif" /></div>
+		<script src="/js/scripts.min.js"></script>
+	</body>
+</html>
