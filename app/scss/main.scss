@@ -1,0 +1,38 @@
+        html {
+            width: 100%;
+            height: 100%
+        }
+
+        body {
+            height: 100%;
+            width: 100%;
+            position: fixed;
+            margin: 0;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .kitty {
+            height: 389px;
+        }
+
+        .kitty__img {
+            height: 100%;
+            display: block;
+            animation-name: spin;
+            animation-duration: 300s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes spin {
+            from {
+                transform: rotate(0)
+            }
+
+            to {
+                transform: rotate(360deg)
+            }
+        }
