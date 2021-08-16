@@ -30,7 +30,7 @@ permalink: /
 <section id="js-scroll" class="section js-animated animatedFadeInUp">
 	<div class="section__inner content-wrap">
 		<h2 class="h2 section__heading">{{sections.oneTitle |safe}}</h2>
-		<div class="section__content">{{sections.oneContent | markdownify }}</div>
+		<div class="section__content">{{sections.oneContent | markdownify | safe }}</div>
 		<!-- Calendly link widget begin -->
 		<a class="section__cta btn btn--modal-launch" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/atomicmind/onboarding-consultation'});return false;">MEET WITH US</a>
 		<!-- Calendly link widget end -->
@@ -40,7 +40,7 @@ permalink: /
 <section class="section js-animated animatedFadeInUp">
 	<div class="section__inner content-wrap">
 		<h2 class="h2 section__heading">{{sections.twoTitle |safe}}</h2>
-		<div class="section__content">{{sections.twoContent | markdownify }}</div>
+		<div class="section__content">{{sections.twoContent | markdownify | safe }}</div>
 		<!-- Calendly link widget begin -->
 		<a class="section__cta btn btn--modal-launch" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/atomicmind/onboarding-consultation'});return false;">MEET WITH US</a>
 		<!-- Calendly link widget end -->
@@ -50,7 +50,7 @@ permalink: /
 <section class="section js-animated animatedFadeInUp">
 	<div class="section__inner content-wrap">
 		<h2 class="h2 section__heading">{{sections.threeTitle |safe}}</h2>
-		<div class="section__content">{{sections.threeContent | markdownify }}</div>
+		<div class="section__content">{{sections.threeContent | markdownify | safe }}</div>
 		<!-- Calendly link widget begin -->
 		<a class="section__cta btn btn--modal-launch" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/atomicmind/onboarding-consultation'});return false;">MEET WITH US</a>
 		<!-- Calendly link widget end -->
