@@ -23,12 +23,12 @@
       "oAP" : "\/.idea",
       "oF" : 0
     },
-    "\/app\/_data\/sections.yml" : {
+    "\/app\/_data\/sections.yaml" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/app\/_data\/sections.yml",
+      "oAP" : "\/app\/_data\/sections.yaml",
       "oF" : 0
     },
     "\/app\/_includes\/layouts\/base.njk" : {
