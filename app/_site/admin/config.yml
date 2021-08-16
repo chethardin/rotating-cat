@@ -5,11 +5,29 @@ backend:
 media_folder: "_site/images/uploads"
 public_folder: "/images/uploads"
 collections:
-  - name: "home" # Used in routes, e.g., /admin/collections/blog
-    label: "Home" # Used in the UI
-    folder: "_pages/home" # The path to the folder where the documents are stored
-    create: false # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  - name: "pages" # Used in routes, e.g., /admin/collections/blog
+    label: "Pages" # Used in the UI
+    folder: "_pages" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{title}}"
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - label: "Pages"
+    name: "page"
+    files:
+      - label: "Home page"
+        name: "home"
+        file: "_pages/home.njk"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Hero", name: "hero", widget: "markdown"}
+          - {label: "Section one title", name: "section-one-title", widget: "string"}
+          - {label: "section one content", name: "section-one-content", widget: "markdown"}
+          - {label: "Section one content", name: "section-one-image", widget: "image"}
+          - {label: "Section two title", name: "section-two-title", widget: "string"}
+          - {label: "section two content", name: "section-two-content", widget: "markdown"}
+          - {label: "Section two content", name: "section-two-image", widget: "image"}
+          - {label: "Section three title", name: "section-three-title", widget: "string"}
+          - {label: "section three content", name: "section-three-content", widget: "markdown"}
+          - {label: "Section three content", name: "section-three-image", widget: "image"}
