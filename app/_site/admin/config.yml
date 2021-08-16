@@ -8,7 +8,7 @@ collections:
   - label: "Home"
     name: "home"
     editor:
-      preview: true
+      preview: false
     files:
       - label: "Sections"
         name: "sections"
