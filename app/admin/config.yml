@@ -15,7 +15,7 @@ collections:
         file: "app/_data/sections.yaml"
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          # - {label: "Hero", name: "hero", widget: "markdown"}
+          - {label: "Hero", name: "hero", widget: "markdown"}
           # - {label: "Section one title", name: "section-one-title", widget: "string"}
           # - {label: "section one content", name: "section-one-content", widget: "markdown"}
           # - {label: "Section one content", name: "section-one-image", widget: "image"}
