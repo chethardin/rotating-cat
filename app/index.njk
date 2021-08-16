@@ -2,7 +2,59 @@
 layout: layouts/base.njk
 permalink: /
 ---
-<div class="kitty js-kitty"><img class="kitty__img" src="images/giphy.gif" /></div>
+<div class="hero">
+	<div class="hero__inner content-wrap">
+		<div class="site-logo">
+			<img class="site-logo__img" src="images/atomic-mind-white.png" />
+		</div>
+		<header class="hero__header">
+			<h1 class="h1">{{sections.title}}</h1>
+			<div class="hero__signup">
+				<a class="btn btn--modal-launch" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/atomicmind/onboarding-consultation'});return false;">MEET WITH US</a>
+				{# <form class="form form--hero" action="javascript:heroModal()">
+					<label class="screen-reader-text">Sign up</label>  
+					<input class="js-email-holder" type="text" placeholder="Enter your email to reserve a spot" required> 
+					<button class="arrow arrow--hero js-hero-modal-launch" type="submit">{% include "icons/arrow.njk" %}</button> 
+				</form> #}
+				{# <p class="white">Limited to 50 students</p> #}
+			</div>
+		</header>
+		<div class="hero__content">
+			<p class="white">{{sections.hero}} </p>
+		</div>
+		<button class="arrow arrow--down js-arrow-down">
+			{% include "icons/arrow.njk" %}
+		</button>
+	</div>
+</div>
+<section id="js-scroll" class="section js-animated animatedFadeInUp">
+	<div class="section__inner content-wrap">
+		<h2 class="h2 section__heading">{{sections.oneTitle}}</h2>
+		<div class="section__content">{{sections.oneContent}}</div>
+		<!-- Calendly link widget begin -->
+		<a class="section__cta btn btn--modal-launch" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/atomicmind/onboarding-consultation'});return false;">MEET WITH US</a>
+		<!-- Calendly link widget end -->
+		<img class="section__image" src="/images/feet-with-arrows.jpg" width="640" height="428" loading="lazy" alt="Feet with arrows" />
+	</div>
+</section>
+<section class="section js-animated animatedFadeInUp">
+	<div class="section__inner content-wrap">
+		<h2 class="h2 section__heading">{{sections.twoTitle}}</h2>
+		<div class="section__content">{{sections.twoContent}}</div>
+		<!-- Calendly link widget begin -->
+		<a class="section__cta btn btn--modal-launch" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/atomicmind/onboarding-consultation'});return false;">MEET WITH US</a>
+		<!-- Calendly link widget end -->
+		<img class="section__image" src="/images/kicking-girl.jpg" width="640" height="428" loading="lazy" alt="Kicking girl" />
+	</div>
+</section>
+<section class="section js-animated animatedFadeInUp">
+	<div class="section__inner content-wrap">
+		<h2 class="h2 section__heading">{{sections.threeTitle}}</h2>
+		<div class="section__content">{{sections.threeContent}}</div>
+		<!-- Calendly link widget begin -->
+		<a class="section__cta btn btn--modal-launch" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/atomicmind/onboarding-consultation'});return false;">MEET WITH US</a>
+		<!-- Calendly link widget end -->
+		<img class="section__image" src="/images/coffeeshop.jpg" width="640" height="428" loading="lazy" alt="Coffeeshop" />
+	</div>
+</section>
 
-{{ sections.title }}
-{{ sections.hero }}

@@ -16,12 +16,12 @@ collections:
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Hero", name: "hero", widget: "markdown"}
-          # - {label: "Section one title", name: "section-one-title", widget: "string"}
-          # - {label: "section one content", name: "section-one-content", widget: "markdown"}
-          # - {label: "Section one content", name: "section-one-image", widget: "image"}
-          # - {label: "Section two title", name: "section-two-title", widget: "string"}
-          # - {label: "section two content", name: "section-two-content", widget: "markdown"}
-          # - {label: "Section two content", name: "section-two-image", widget: "image"}
-          # - {label: "Section three title", name: "section-three-title", widget: "string"}
-          # - {label: "section three content", name: "section-three-content", widget: "markdown"}
-          # - {label: "Section three content", name: "section-three-image", widget: "image"}
+          - {label: "Section one title", name: "oneTitle", widget: "string"}
+          - {label: "section one content", name: "oneContent", widget: "markdown"}
+          # - {label: "Section one content", name: "oneImage", widget: "image"}
+          - {label: "Section two title", name: "twoTitle", widget: "string"}
+          - {label: "section two content", name: "twoContent", widget: "markdown"}
+          # - {label: "Section two content", name: "twoImage", widget: "image"}
+          - {label: "Section three title", name: "threeTitle", widget: "string"}
+          - {label: "section three content", name: "threeContent", widget: "markdown"}
+          # - {label: "Section three content", name: "threeImage", widget: "image"}

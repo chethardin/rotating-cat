@@ -1,0 +1,26 @@
+.section {
+    padding: 80px 0;
+}
+.content-wrap {
+    padding: 0 16px;
+    margin: 0 auto;
+    max-width: var(--content-wrap);
+}
+
+@media only screen and (min-width: $desktop) {
+    .section {
+        padding: 120px 0 100px;
+    }
+    .content-wrap {
+        padding: 0 40px;
+    }
+}
+
+@media only screen and (min-width: $huge) {
+    .section {
+        padding: 200px 0 100px;
+    }
+    .content-wrap {
+        padding: 0 120px;
+    }
+}

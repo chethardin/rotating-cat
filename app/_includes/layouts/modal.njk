@@ -1,0 +1,52 @@
+<div class="overlay js-overlay"></div>
+<button class="close-btn js-close" type="button">
+    <span class="screen-reader-text">Close sign-up form modal</span>
+    <svg xmlns="http://www.w3.org/2000/svg" width="26.87" height="26.87" viewBox="0 0 26.87 26.87" role="img" aria-hidden="true">
+        <g transform="translate(2.828 2.828)">
+            <line x2="30" transform="translate(0 0) rotate(45)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="4"></line>
+            <line x2="30" transform="translate(21.213 0) rotate(135)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="4"></line>
+        </g>
+    </svg>
+</button>
+<div class="modal js-modal">
+    <div class="modal__wrapper">
+        <h2 class="h2 h2--modal">Meet With Us</h2>
+        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="modal__form js-form">
+            <div class="half-col">
+                <label for="first-name" class="screen-reader-text">First name</label>  
+                <input id="first-name" class="modal__input" name="first-name" type="text" placeholder="First name" required> 
+            </div>
+            <div class="half-col">
+                <label for="last-name" class="screen-reader-text">Last name</label>  
+                <input id="last-name" class="modal__input" name="last-name" type="text" placeholder="Last name" required> 
+            </div>
+            <div class="full-col">
+                <label for="email" class="screen-reader-text">Email address</label>  
+                <input id="email" class="modal__input" name="email" type="text" placeholder="Email address" required> 
+            </div>
+            <div class="half-col">
+                <label for="year" class="screen-reader-text">High school graduation year</label>  
+                <input id="year" class="modal__input" name="year" type="text" placeholder="High school graduation year" required> 
+            </div>
+            <div class="half-col">
+                <label for="relationship" class="screen-reader-text">Relationship to student</label>  
+                <select id="relationship" class="modal__select" name="relationship" required>
+                    <option value="" disabled selected hidden>&nbsp;Relationship to student</option>
+                    <option value="self">&nbsp;Self</option>
+                    <option value="parent">&nbsp;Parent</option>
+                    <option value="other">&nbsp;Other</option>
+                </select>
+            </div>
+            <div class="full-col">
+                <label for="message" class="screen-reader-text">Please use this space if you wish to tell us more about the student and his/her/their college admissions goals (optional)</label>  
+                <textarea id="message" class="modal__textarea" name="message" rows="2" cols="50" placeholder="Please use this space if you wish to tell us more about the student and his/her/their college admissions goals (optional)"></textarea>
+            </div>
+            <p class="screen-reader-text">
+                <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+            </p>
+            <div class="full-col no-border">
+                <button class="arrow arrow--submit" type="submit"><span>Submit</span>{% include "icons/arrow.njk" %}</button>
+            </div>
+        </form>
+    </div>
+</div>

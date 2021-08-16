@@ -1,0 +1,231 @@
+.hero {
+    background-color: var(--color-purple);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-content: stretch;
+    &:before {
+        content: "Story Matters Unique Matters Story Matters Unique Matters Story Matters Unique Matters Story Matters Unique Matters Story Matters Unique Matters Story Matters Unique Matters Story Matters Unique Matters Story Matters Unique Matters Story Matters Unique Matters Story Matters Unique Matters Story Matters Unique Matters Story Matters Unique Matters Story Matters Unique Matters Story Matters Unique Matters Story Matters Unique Matters Story Matters Unique Matters Story Matters Unique Matters Story Matters Unique Matters Story Matters Unique Matters Story Matters Unique Matters Story Matters Unique Matters Story Matters Unique Matters Story Matters Unique Matters Story Matters Unique Matters Story Matters Unique Matters Story Matters Unique Matters Story Matters Unique Matters Story Matters Unique Matters";
+        font-family: var(--font-heading);
+        position: absolute;
+        top: 6px;
+        font-size: 16px;
+        width: 260px;
+        line-height: 1.23;
+        color: white;
+        opacity: 0.22;
+        left: 16px;
+    }
+    &__header {
+        max-width: 445px;
+    }
+    &__inner {
+        padding-top: 80px;
+        padding-bottom: 140px;
+        display: flex;
+        flex-flow: column;
+        flex: 1;
+    }
+    &__signup {
+        width: 100%;
+        p {
+            font-style: italic;
+            font-size: 14px;
+            margin-left: 12px;
+        }
+    }
+    &__content {
+        max-width: 900px;
+        margin-top: 50px;
+        p {
+            font-size: 24px;
+            margin-top: 0;
+        }
+    }
+    .btn {
+        margin: 0;
+    }
+}
+.form--hero {
+    display: flex;
+    padding: 18px 10px 16px;
+    background: var(--color-red);
+    border: 2px solid var(--color-red);
+    position: relative;
+    &:focus-within {
+        border: 2px solid white;
+    }
+    input {
+        flex: 1;
+        border: none;
+        padding: 0 0 12px 0;
+        border-bottom: 4px solid white;
+        border-radius: 0;
+        background: none;
+        color: #fff;
+        font-size: 14px;
+        &::placeholder {
+            color: #fff;
+            transition: 60ms ease-in-out all;
+        }
+        &:focus {
+            outline: none;
+            cursor: text;
+        }
+        &:focus::placeholder {
+            opacity: 0;
+        }
+    }
+}
+.arrow {
+    cursor: pointer;
+    z-index: 1;
+    background: none;
+    border: none;
+    outline: none;
+    svg {
+        width: 40px;
+        height: 20px;
+    }
+    &--down {
+        position: absolute;
+        transform: rotate(90deg);
+        bottom: 24px;
+        right: 16px;
+    }
+    &--hero {
+        position: absolute;
+        top: 15px;
+        right: 0;
+
+    }
+}
+@media only screen and (min-width: $mobile) {
+    .hero {
+        &__signup p {
+            font-size: 16px;
+        }
+    }
+    .form--hero input {
+        font-size: 18px;
+    }
+}
+@media only screen and (min-width: $tablet) {
+    .hero {
+        min-height: var(--app-height);
+        &:before {
+            font-size: 22px;
+            width: 300px;
+        }
+        &__header {
+            display: flex;
+            flex-flow: column;
+            max-width: 595px;
+        }
+        &__inner{
+            padding-bottom: 0;
+            margin: 0;
+        }
+        &__signup {
+            display: flex;
+            flex-flow: column;
+            p {
+                font-size: 20px;
+                margin-left: 22px;
+            }
+        }
+        &__content {
+            margin-top: 48px;
+            margin-bottom: 48px;
+            p {
+                font-size: 28px;
+            }
+        }
+    }
+    .form--hero {
+        padding: 24px 20px 20px;
+        input {
+            font-size: 26px;
+            border-bottom: 7px solid white;
+        }
+    }
+    .arrow {
+        svg {
+            width: 48px;
+            height: 26px;
+        }
+        &--hero {
+            right: 10px;
+            top: 22px;
+        }
+    }
+}
+@media only screen and (min-width: $desktop) {
+    .hero {
+        &:before {
+            top: 20px;
+            left: 40px;
+            font-size: 28px;
+            width: 345px;
+        }
+        &__signup {
+            max-width: 770px;
+            margin-left: auto;
+            p {
+                font-size: 20px;
+                margin-left: 32px;
+            }
+        }
+        &__header {
+            max-width: 920px;
+        }
+        &__inner {
+            padding-top: 100px;
+        }
+    }
+    .form--hero {
+        padding: 40px 32px 32px;
+        input {
+            padding: 0 0 17px 0;
+            font-size: 26px;
+        }
+    }
+    .arrow {
+        svg {
+            width: 62px;
+            height: 40px;
+        }
+        &--hero {
+            right: 28px;
+            top: 34px;
+        }
+        &--down {
+            bottom: 40px;
+            right: 120px;
+        }
+    }
+}
+@media only screen and (min-width: $huge) {
+    .hero {
+        &:before {
+            font-size: 58px;
+            width: 725px;
+        }
+        &__inner {
+            margin: 0 auto;
+        }
+        &__header {
+            max-width: 1415px;
+        }
+        &__content {
+            margin-top: 60px;
+            margin-bottom: 60px;
+
+        }
+    }
+    .form--hero {
+        input {
+            font-size: 32px;
+        }
+    }
+}
