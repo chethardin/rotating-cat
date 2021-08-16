@@ -1,6 +1,14 @@
 const yaml = require("js-yaml");
 
+
 module.exports = function (eleventyConfig) {
+
+    const md = require('markdown-it')({
+        html: false,
+        breaks: true
+    });
+
+    eleventyConfig.addNunjucksFilter("markdownify", markdownString => md.render(markdownString));
     eleventyConfig.addDataExtension("yaml", (contents) =>
         yaml.safeLoad(contents)
     );
